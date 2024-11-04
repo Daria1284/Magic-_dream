@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace Magic
 {
-    public partial class Form1 : Form
+    public partial class Form5 : Form
     {
-        public Form1()
+        public Form5()
         {
             InitializeComponent();
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 photoForm = new Form2();
-            photoForm.ShowDialog();
-
         }
 
         private void label1_Click(object sender, EventArgs e)
