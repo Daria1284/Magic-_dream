@@ -32,6 +32,28 @@ namespace Magic
         {
             Form4 photoForm = new Form4();
             photoForm.ShowDialog();
+            this.Close();  // Закриваємо поточну форму, щоб вона не залишалась на екрані
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 photoForm = new Form4();
+            photoForm.ShowDialog();
+            this.Close();  // Закриваємо поточну форму, щоб вона не залишалась на екрані
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form4 photoForm = new Form4();
+            photoForm.ShowDialog();
+            this.Close();  // Закриваємо поточну форму, щоб вона не залишалась на екрані
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 photoForm = new Form4();
+            photoForm.ShowDialog();
+            this.Close();  // Закриваємо поточну форму, щоб вона не залишалась на екрані
         }
     }
 }

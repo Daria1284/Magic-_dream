@@ -26,6 +26,7 @@ namespace Magic
         {
             Form2 photoForm = new Form2();
             photoForm.ShowDialog();
+            this.Close();  // Закриваємо поточну форму, щоб вона не залишалась на екрані
 
         }
 

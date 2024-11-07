@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Magic
 {
-    public partial class Form5 : Form
+    public partial class Form6 : Form
     {
         private readonly string[] phrases =
         {
@@ -20,24 +20,16 @@ namespace Magic
             "Чарівники стають кращими з кожним уроком!",
             "Не бійся помилок — вони теж частина магічного навчання!"
         };
-        public Form5()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Form6_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void Form5_Load(object sender, EventArgs e)
-        {
-         
             Random random = new Random();
             int index = random.Next(phrases.Length);
             label1.Text = phrases[index];
         }
     }
-    
 }
-
